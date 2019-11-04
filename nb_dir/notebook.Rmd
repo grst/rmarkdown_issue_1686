@@ -1,21 +1,8 @@
----
-title: test
----
-
-```{r setup}
-library(reticulate)
-```
-
 ```{r plot-r}
 plot(1:10)
 ```
 
-```{python is-reticulate}
-x = 1
-```
-
 ```{python plot-py}
-assert x == 1, "not using reticulate"
 import matplotlib.pyplot as plt
 plt.plot(range(10))
 ```
